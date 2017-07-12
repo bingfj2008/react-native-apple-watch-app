@@ -1,0 +1,3 @@
+rootProject.name = 'IWatchApp'
+
+include ':app'
