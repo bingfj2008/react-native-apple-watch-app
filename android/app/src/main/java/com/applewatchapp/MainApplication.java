@@ -1,4 +1,4 @@
-package com.iwatchapp;
+package com.applewatchapp;
 
 import android.app.Application;
 

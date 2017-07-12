@@ -16,11 +16,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React Native!"
 
-@interface IWatchAppTests : XCTestCase
+@interface AppleWatchAppTests : XCTestCase
 
 @end
 
-@implementation IWatchAppTests
+@implementation AppleWatchAppTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {
