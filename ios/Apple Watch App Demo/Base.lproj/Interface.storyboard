@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="6QL-7d-tIF">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="12029"/>
+    </dependencies>
+    <scenes>
+        <!--Main-->
+        <scene sceneID="LHx-Vk-v62">
+            <objects>
+                <controller identifier="Main" title="Main" id="6QL-7d-tIF" customClass="InterfaceController" customModule="Apple_Watch_App_Demo" customModuleProvider="target">
+                    <items>
+                        <label height="20" alignment="left" text="Label" id="wuc-PQ-nKs"/>
+                        <button width="1" alignment="left" title="開始" id="yWu-QR-hfa">
+                            <connections>
+                                <action selector="begins" destination="6QL-7d-tIF" id="ZK4-tt-Ra4"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="btnBegin" destination="yWu-QR-hfa" id="Dn6-xZ-8Y6"/>
+                        <outlet property="label1" destination="wuc-PQ-nKs" id="6RA-sX-MaJ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-53" y="-72"/>
+        </scene>
+    </scenes>
+</document>
