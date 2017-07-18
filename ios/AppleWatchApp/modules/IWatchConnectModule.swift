@@ -11,7 +11,7 @@ import Foundation
 @objc(IWatchConnectModule)
 class IWatchConnectModule: NSObject {
   
-  @objc func callbackMethod(callback: RCTResponseSenderBlock) -> Void {
+  @objc func callbackMethod(_ callback: RCTResponseSenderBlock) -> Void {
     let result = [
       "success": "sss"
     ];
