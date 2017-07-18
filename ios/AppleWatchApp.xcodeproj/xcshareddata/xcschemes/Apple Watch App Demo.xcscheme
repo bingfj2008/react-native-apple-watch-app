@@ -3,7 +3,7 @@
    LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
-      parallelizeBuildables = "NO"
+      parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
-               BuildableName = "libReact.a"
-               BlueprintName = "React-tvOS"
-               ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
+               BlueprintIdentifier = "C2E4F4341F170C7E00822D88"
+               BuildableName = "Apple Watch App Demo.app"
+               BlueprintName = "Apple Watch App Demo"
+               ReferencedContainer = "container:AppleWatchApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,23 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "AppleWatchApp-tvOS.app"
-               BlueprintName = "AppleWatchApp-tvOS"
-               ReferencedContainer = "container:AppleWatchApp.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "AppleWatchApp-tvOSTests.xctest"
-               BlueprintName = "AppleWatchApp-tvOSTests"
+               BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
+               BuildableName = "AppleWatchApp.app"
+               BlueprintName = "AppleWatchApp"
                ReferencedContainer = "container:AppleWatchApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,23 +42,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "AppleWatchApp-tvOSTests.xctest"
-               BlueprintName = "AppleWatchApp-tvOSTests"
-               ReferencedContainer = "container:AppleWatchApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "AppleWatchApp-tvOS.app"
-            BlueprintName = "AppleWatchApp-tvOS"
+            BlueprintIdentifier = "C2E4F4341F170C7E00822D88"
+            BuildableName = "Apple Watch App Demo.app"
+            BlueprintName = "Apple Watch App Demo"
             ReferencedContainer = "container:AppleWatchApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -89,16 +65,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/AppleWatchApp">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "AppleWatchApp-tvOS.app"
-            BlueprintName = "AppleWatchApp-tvOS"
+            BlueprintIdentifier = "C2E4F4341F170C7E00822D88"
+            BuildableName = "Apple Watch App Demo.app"
+            BlueprintName = "Apple Watch App Demo"
             ReferencedContainer = "container:AppleWatchApp.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2E4F4341F170C7E00822D88"
+            BuildableName = "Apple Watch App Demo.app"
+            BlueprintName = "Apple Watch App Demo"
+            ReferencedContainer = "container:AppleWatchApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -108,16 +95,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/AppleWatchApp">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "AppleWatchApp-tvOS.app"
-            BlueprintName = "AppleWatchApp-tvOS"
+            BlueprintIdentifier = "C2E4F4341F170C7E00822D88"
+            BuildableName = "Apple Watch App Demo.app"
+            BlueprintName = "Apple Watch App Demo"
             ReferencedContainer = "container:AppleWatchApp.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "C2E4F4341F170C7E00822D88"
+            BuildableName = "Apple Watch App Demo.app"
+            BlueprintName = "Apple Watch App Demo"
+            ReferencedContainer = "container:AppleWatchApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

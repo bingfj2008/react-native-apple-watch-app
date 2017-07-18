@@ -7,7 +7,6 @@
 //
 
 import UIKit;
-import React;
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

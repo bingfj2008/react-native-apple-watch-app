@@ -24,6 +24,10 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		97681A4FAED339AF6F7342DA /* libPods-AppleWatchApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6F259C6A66C8EDD0E9AB1 /* libPods-AppleWatchApp.a */; };
 		C2B56AB01F1735EB00CF035F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B56AAF1F1735EB00CF035F /* AppDelegate.swift */; };
+		C2D511B71F1DE28F0055F79F /* IPhoneConnectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D511B61F1DE28F0055F79F /* IPhoneConnectUtil.swift */; };
+		C2D511B91F1DE52F0055F79F /* IWatchConnectUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D511B81F1DE52F0055F79F /* IWatchConnectUtil.swift */; };
+		C2D511C21F1DE85A0055F79F /* IWatchConnectModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D511C11F1DE85A0055F79F /* IWatchConnectModule.swift */; };
+		C2D511C71F1DEC340055F79F /* IWatchConnectModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D511C61F1DEC340055F79F /* IWatchConnectModule.m */; };
 		C2E4F4391F170C7E00822D88 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E4F4371F170C7E00822D88 /* Interface.storyboard */; };
 		C2E4F43B1F170C7E00822D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E4F43A1F170C7E00822D88 /* Assets.xcassets */; };
 		C2E4F4421F170C7F00822D88 /* Apple Watch App Demo Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2E4F4411F170C7F00822D88 /* Apple Watch App Demo Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -307,9 +311,12 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7BA62809A114F438B1933CE9 /* Pods-AppleWatchApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleWatchApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleWatchApp/Pods-AppleWatchApp.debug.xcconfig"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		C268F3EF1F173B3D005B387E /* AppleWatchApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppleWatchApp-Bridging-Header.h"; sourceTree = "<group>"; };
 		C2B56AAF1F1735EB00CF035F /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = AppleWatchApp/AppDelegate.swift; sourceTree = "<group>"; };
-		C2D511811F1DD0CA0055F79F /* AppleWatchApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppleWatchApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2D511B51F1DD5B50055F79F /* AppleWatchApp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AppleWatchApp-Bridging-Header.h"; path = "AppleWatchApp/AppleWatchApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C2D511B61F1DE28F0055F79F /* IPhoneConnectUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPhoneConnectUtil.swift; sourceTree = "<group>"; };
+		C2D511B81F1DE52F0055F79F /* IWatchConnectUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IWatchConnectUtil.swift; sourceTree = "<group>"; };
+		C2D511C11F1DE85A0055F79F /* IWatchConnectModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IWatchConnectModule.swift; path = AppleWatchApp/modules/IWatchConnectModule.swift; sourceTree = "<group>"; };
+		C2D511C61F1DEC340055F79F /* IWatchConnectModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWatchConnectModule.m; path = AppleWatchApp/modules/IWatchConnectModule.m; sourceTree = "<group>"; };
 		C2E4F4351F170C7E00822D88 /* Apple Watch App Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple Watch App Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2E4F4381F170C7E00822D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		C2E4F43A1F170C7E00822D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -447,12 +454,14 @@
 		13B07FAE1A68108700A75B9A /* AppleWatchApp */ = {
 			isa = PBXGroup;
 			children = (
-				C2D511811F1DD0CA0055F79F /* AppleWatchApp-Bridging-Header.h */,
+				C2D511BC1F1DE73F0055F79F /* module */,
+				C2D511B51F1DD5B50055F79F /* AppleWatchApp-Bridging-Header.h */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				C2B56AAF1F1735EB00CF035F /* AppDelegate.swift */,
+				C2D511B81F1DE52F0055F79F /* IWatchConnectUtil.swift */,
 			);
 			name = AppleWatchApp;
 			sourceTree = "<group>";
@@ -565,10 +574,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		C2D511BC1F1DE73F0055F79F /* module */ = {
+			isa = PBXGroup;
+			children = (
+				C2D511C11F1DE85A0055F79F /* IWatchConnectModule.swift */,
+				C2D511C61F1DEC340055F79F /* IWatchConnectModule.m */,
+			);
+			name = module;
+			sourceTree = "<group>";
+		};
 		C2E4F4361F170C7E00822D88 /* Apple Watch App Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C268F3EF1F173B3D005B387E /* AppleWatchApp-Bridging-Header.h */,
 				C2E4F4371F170C7E00822D88 /* Interface.storyboard */,
 				C2E4F43A1F170C7E00822D88 /* Assets.xcassets */,
 				C2E4F43C1F170C7E00822D88 /* Info.plist */,
@@ -583,6 +600,7 @@
 				C2E4F4481F170C7F00822D88 /* ExtensionDelegate.swift */,
 				C2E4F44A1F170C7F00822D88 /* Assets.xcassets */,
 				C2E4F44C1F170C7F00822D88 /* Info.plist */,
+				C2D511B61F1DE28F0055F79F /* IPhoneConnectUtil.swift */,
 			);
 			path = "Apple Watch App Demo Extension";
 			sourceTree = "<group>";
@@ -1077,6 +1095,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D511C21F1DE85A0055F79F /* IWatchConnectModule.swift in Sources */,
+				C2D511C71F1DEC340055F79F /* IWatchConnectModule.m in Sources */,
 				C2B56AB01F1735EB00CF035F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1085,7 +1105,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D511B71F1DE28F0055F79F /* IPhoneConnectUtil.swift in Sources */,
 				C2E4F4491F170C7F00822D88 /* ExtensionDelegate.swift in Sources */,
+				C2D511B91F1DE52F0055F79F /* IWatchConnectUtil.swift in Sources */,
 				C2E4F4471F170C7F00822D88 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1190,7 +1212,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AppleWatchApp;
-				SWIFT_OBJC_BRIDGING_HEADER = "AppleWatchAppDemo/AppleWatchApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleWatchApp/AppleWatchApp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1214,7 +1236,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = AppleWatchApp;
-				SWIFT_OBJC_BRIDGING_HEADER = "AppleWatchAppDemo/AppleWatchApp-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppleWatchApp/AppleWatchApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
